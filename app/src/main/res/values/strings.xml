@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Article App</string>
+
+    <string name="transition_title_card">transition_title_card</string>
+    <string name="title_activity_article_detail">Article</string>
+    <string name="title_activity_article_list">Article List</string>
+</resources>

@@ -1,0 +1,47 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            style="@style/SimpleCardView"
+            android:id="@+id/card_view_title"
+            android:transitionName="@string/transition_title_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="?android:textAppearanceMedium"
+                tools:text="Title Text"
+                android:id="@+id/text_view_title"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/SimpleCardView"
+            android:id="@+id/card_view_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                tools:text="Article text goes here."
+                android:id="@+id/text_view_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+
